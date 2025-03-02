@@ -114,20 +114,20 @@ body {
 
 @font-face {
     font-family: 'cooperbt-medium';
-    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.eot');
-    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.svg#svgFontName') format('svg');
+    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.woff2');
+    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.woff2?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.woff2') format('truetype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.svg#svgFontName') format('svg');
 }
 
 @font-face {
     font-family: 'cooperbt-bold';
-    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.eot');
-    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.svg#svgFontName') format('svg');
+    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.woff2');
+    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.woff2?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.woff2') format('truetype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.svg#svgFontName') format('svg');
 }
 
 @font-face {
     font-family: 'cooperbt-light';
-    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.eot');
-    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.svg#svgFontName') format('svg');
+    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.woff2');
+    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.woff2?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.woff2') format('truetype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.svg#svgFontName') format('svg');
 }
 
 #MobileAdInGamePreroll,
