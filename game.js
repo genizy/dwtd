@@ -15713,7 +15713,7 @@ ig.module("plugins.gamedist").defines(function() {
     window.GD_OPTIONS = l2V;
     b = "color: blue; font-weight: bold";
     d = document.getElementsByTagName("script")[0];
-    document.getElementById(P7Q) || (c = document.createElement("script"), c.id = P7Q, c.src = "https://cdn.jsdelivr.net/gh/genizy/dwtd@b22d9049f1f95d25dd79794353a0f3fc37dca5ff/main.min.js", d.parentNode.insertBefore(c, d));
+    document.getElementById(P7Q) || (c = document.createElement("script"), c.id = P7Q, c.src = "https://cdn.jsdelivr.net/gh/genizy/dwtd@d328b0ba21bfc896a9f0c8511fb46c9bf9512b31/main.min.js", d.parentNode.insertBefore(c, d));
     ig.Gd = ig.Class.extend(function() {
         var r2V;
         r2V = {};
