@@ -115,19 +115,19 @@ body {
 @font-face {
     font-family: 'cooperbt-medium';
     src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.woff2');
-    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.woff2?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.woff2') format('truetype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.svg#svgFontName') format('svg');
+    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.woff2?#iefix') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-medium.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'cooperbt-bold';
     src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.woff2');
-    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.woff2?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.woff2') format('truetype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.svg#svgFontName') format('svg');
+    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.woff2?#iefix') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.woff') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-bold.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'cooperbt-light';
     src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.woff2');
-    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.woff2?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.woff2') format('truetype'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.svg#svgFontName') format('svg');
+    src: url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.woff2?#iefix') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.woff') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/genizy/dwtd/media/fonts/cooperbt-light.woff2') format('woff2');
 }
 
 #MobileAdInGamePreroll,

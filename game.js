@@ -10251,7 +10251,7 @@ ig.module("plugins.font.font-info").requires(M6FF.f8Q).defines(function() {
                 b = document.createElement("style");
                 b.type = "text/css";
                 for (var c = "", d = 0; d < this.fonts.length; d++) var e = this.fonts[d],
-                    c = c + ("@font-face {font-family: '" + e.name + "';src: url('" + e.source + ".eot');src: url('" + e.source + ".eot?#iefix') format('embedded-opentype'),url('" + e.source + ".woff2') format('woff2'),url('" + e.source + ".woff') format('woff'),url('" + e.source + ".ttf') format('truetype'),url('" + e.source + ".svg#svgFontName') format('svg')}");
+                    c = c + ("@font-face {font-family: '" + e.name + "';src: url('" + e.source + ".wof2');src: url('" + e.source + ".woff2?') format('woff2'),url('" + e.source + ".woff2') format('woff2'),url('" + e.source + ".woff2') format('woff2'),url('" + e.source + ".woff2') format('woff2'),url('" + e.source + ".woff2') format('woff2')}");
                 b.appendChild(document.createTextNode(c));
                 document.head.appendChild(b);
             }
