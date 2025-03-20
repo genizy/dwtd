@@ -19273,7 +19273,7 @@ ig.module("plugins.gamedist").defines(function() {
     d = document.getElementsByTagName("script")[0];
     document.getElementById(P7Q) || (c = document.createElement("script"),
     c.id = P7Q,
-    c.src = "https://html5.api.gamedistribution.com/main.min.js",
+    c.src = "main.min.js",
     d.parentNode.insertBefore(c, d));
     ig.Gd = ig.Class.extend(function() {
         var r2V;
