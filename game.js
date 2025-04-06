@@ -1622,7 +1622,7 @@ W6VV.Game.unlockChar.done = "Well done! You've unlocked all characters";
 
 function getQueryVariable(b) {
     var e;
-    for (var c = window.grnahsf.search.substring(1).split("&"), d = 0; d < c.length; d++) {
+    for (var c = window.location.search.substring(1).split("&"), d = 0; d < c.length; d++) {
         e = c[d].split("=");
         if (decodeURIComponent(e[0]) == b) return decodeURIComponent(e[1]);
     }
@@ -2910,7 +2910,7 @@ MobileAdInGameEnd = X6VV;
             });
             M9.pseudos.target = function (b) {
                 var c;
-                c = window.grnahsf && window.grnahsf.hash;
+                c = ub.location && ub.location.hash;
                 return c && c.slice(1) === b.id;
             };
             M9.pseudos.root = function (b) {
@@ -5317,7 +5317,7 @@ MobileAdInGameEnd = X6VV;
                 return e6V;
             }.apply(this, arguments);
         });
-        Ua = window.grnahsf;
+        Ua = b.location;
         wc = l.now();
         Fb = /\x3f/;
         l.parseXML = function (c) {
@@ -5879,7 +5879,7 @@ MobileAdInGameEnd = X6VV;
             var e, j, f;
             if ("string" != typeof b) return [];
             "boolean" == typeof c && (d = c, c = ![]);
-            return c || (M.createHTMLDocument ? (c = A.implementation.createHTMLDocument(""), e = c.createElement("base"), e.href = window.grnahsf.href, c.head.appendChild(e)) : c = A), j = ic.exec(b), f = !d && [], j ? [c.createElement(j[1])] : (j = F([b], c, f), f && f.length && l(f).remove(), l.merge([], j.childNodes));
+            return c || (M.createHTMLDocument ? (c = A.implementation.createHTMLDocument(""), e = c.createElement("base"), e.href = A.location.href, c.head.appendChild(e)) : c = A), j = ic.exec(b), f = !d && [], j ? [c.createElement(j[1])] : (j = F([b], c, f), f && f.length && l(f).remove(), l.merge([], j.childNodes));
         };
         l.fn.load = function (b, c, d) {
             var e, j, f, m, g;
@@ -6819,7 +6819,7 @@ jukebox.Manager.prototype = l6VV;
             if (b) {
                 this._src = b;
                 this._state = "loading";
-                "https:" === window.grnahsf.protocol && "http:" === b.slice(0, 5) && (this._html5 = !0, this._webAudio = !"1");
+                "https:" === window.location.protocol && "http:" === b.slice(0, 5) && (this._html5 = !0, this._webAudio = !"1");
                 new e(this);
                 if (this._webAudio) {
                     t = this;
@@ -8371,7 +8371,7 @@ ga("marketjs.send", "pageview");
     M5V._boot = function () {
         var d8Q = /\x57\u0069\u006e\x64\x6f\x77\x73\u0020\x50\u0068\u006f\x6e\x65/i;
         var S5V, W5V;
-        window.grnahsf.href.match(/\u003f\x6e\x6f\x63\u0061\u0063\u0068\u0065/) && ig.setNocache(!!1);
+        document.location.href.match(/\u003f\x6e\x6f\x63\u0061\u0063\u0068\u0065/) && ig.setNocache(!!1);
         ig.ua.pixelRatio = b.devicePixelRatio || 1;
         S5V = {};
         S5V.width = b.innerWidth;
@@ -10403,7 +10403,7 @@ ig.module("plugins.handlers.dom-handler").defines(function () {
         G3V.getQueryVariable = function (b) {
             var e;
             M6FF.o9();
-            for (var c = window.grnahsf.search.substring(1).split("&"), d = 0; d < c.length; d++) {
+            for (var c = window.location.search.substring(1).split("&"), d = 0; d < c.length; d++) {
                 e = c[d].split("=");
                 if (decodeURIComponent(e[0]) == b) return decodeURIComponent(e[1]);
             }
